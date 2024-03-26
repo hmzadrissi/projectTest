@@ -1,5 +1,6 @@
 define(['jquery', 'jquery/ui'], function ($, alert) {
     "use strict";
+    console.log('test log')
     $.widget('personnaliastion.checkbox_personnaliser', {
         _create: function () {
             function prepareOptions(options, prefix) {
